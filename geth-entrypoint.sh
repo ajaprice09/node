@@ -39,7 +39,7 @@ fi
 	--http.addr=0.0.0.0 \
 	--http.port="$RPC_PORT" \
 	--http.api=web3,debug,eth,txpool,net,engine \
-	--authrpc.addr=0.0.0.0 \
+	--authrpc.addr=0.0.0.1 \
 	--authrpc.port="$AUTHRPC_PORT" \
 	--authrpc.vhosts="*" \
 	--authrpc.jwtsecret="$OP_NODE_L2_ENGINE_AUTH" \
